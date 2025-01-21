@@ -1,10 +1,12 @@
-from pandas import DataFrame, Series
+from pandas import DataFrame, Series, date_range
 
 ## Analysis goes here
 
 ## Model creation goes here
 
 # Predict function
-def predict_something(some_input: DataFrame) -> Series:
-    guess = 50
-    return Series([guess] * len(some_input), name='target_column')
+def predict_temperatures(n: int) -> DataFrame:
+    guess = 15
+    dates = date_range(start='2010-09-01', periods=n, freq='MS')
+    temperatures = Series([guess] * n, name='LandAverageTemperature')
+    return DataFrame({'dt': dates, 'LandAverageTemperature': temperatures})
