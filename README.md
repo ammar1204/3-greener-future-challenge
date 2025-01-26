@@ -43,7 +43,7 @@ See the sample `submission.py` for more details.
 
 ### Timeline
 
-- **Challenge Release:** Thursday 23rd, January 2025.
+- **Challenge Release:** Sunday 26th, January 2025.
 - **Submission Deadline:** February 8th, 2025 (11:59 PM)
 - **Winner Announcement:** Someday between 10th and 15th of February depending on the number of submissions.
 
